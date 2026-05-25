@@ -1102,7 +1102,7 @@ strong { color: var(--ink-deep); }
   .primary-nav .nav-cta { border-radius: 999px; text-align: center; margin-top: .8rem; padding: .75rem 1rem; }
 
   .hero-grid { grid-template-columns: 1fr; }
-  .hero-portrait { order: -1; max-width: 320px; margin: 0 auto; }
+  .hero-portrait { max-width: 320px; margin: 1.5rem auto 0; }
 
   .stats-grid { grid-template-columns: repeat(2, 1fr); }
   .stat { border-right: 0; border-bottom: 1px solid rgba(255,255,255,.12); padding-bottom: 1rem; padding-right: 0; }
