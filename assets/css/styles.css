@@ -861,10 +861,10 @@ strong { color: var(--ink-deep); }
 }
 .testimonial blockquote {
   margin: 0 0 .9rem;
-  font-family: var(--serif); font-style: italic;
-  font-size: .98rem; line-height: 1.55; color: var(--text);
+  font-family: var(--serif);
+  font-size: 1.02rem; line-height: 1.65; color: var(--text);
   position: relative; z-index: 1;
-  font-variation-settings: 'opsz' 96;
+  font-variation-settings: 'opsz' 14;
 }
 .testimonial cite {
   font-style: normal;
@@ -882,7 +882,7 @@ strong { color: var(--ink-deep); }
 
 /* Featured short quote — for the Dr. Soma Raju "Excellent Program!" type entries */
 .testimonial--brief blockquote {
-  font-size: 1.2rem; font-style: italic;
+  font-size: 1.25rem;
   margin-bottom: 1rem;
 }
 
