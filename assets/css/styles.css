@@ -862,9 +862,10 @@ strong { color: var(--ink-deep); }
 .testimonial blockquote {
   margin: 0 0 .9rem;
   font-family: var(--serif);
-  font-size: 1.02rem; line-height: 1.65; color: var(--text);
+  font-weight: 400;
+  font-size: .94rem; line-height: 1.65; color: var(--text);
   position: relative; z-index: 1;
-  font-variation-settings: 'opsz' 14;
+  font-variation-settings: 'opsz' 36;
 }
 .testimonial cite {
   font-style: normal;
