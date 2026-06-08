@@ -312,11 +312,12 @@ strong { color: var(--ink-deep); }
 
 /* Pull-quote — bare typography with large background glyph */
 .pullquote {
-  grid-column: 1;
+  grid-column: 1 / -1;
   margin: 0;
   padding: 1rem 1.2rem 1rem 2.4rem;
   position: relative;
   align-self: start;
+  max-width: 56rem;
 }
 .pullquote::before {
   content: "\201C";
@@ -344,27 +345,7 @@ strong { color: var(--ink-deep); }
 }
 
 /* Dalai photo — bare image with gallery-credit caption */
-.dalai-photo {
-  grid-column: 2;
-  margin: 0;
-  align-self: start;
-}
-.dalai-photo img {
-  width: 100%; height: auto; display: block;
-  border-radius: 2px;
-}
-.dalai-photo figcaption {
-  font-family: var(--serif);
-  font-size: .82rem; color: var(--muted);
-  margin-top: .6rem;
-  padding-bottom: .35rem;
-  border-bottom: 1px solid var(--gold-soft);
-  display: inline-block;
-  font-style: italic;
-  letter-spacing: .02em;
-}
 @media (max-width: 880px) {
-  .dalai-photo { grid-column: 1; max-width: 360px; }
   .pullquote { grid-column: 1; }
 }
 
